@@ -50,6 +50,10 @@
             <li class="nav-item">
   <RouterLink class="nav-link" to="/payment">💳 Payment</RouterLink>
 </li>
+ <li class="nav-item">
+  <RouterLink class="nav-link" to="/subscriptions">Subscriptions</RouterLink>
+</li>
+
           </ul>
         </div>
       </div>
