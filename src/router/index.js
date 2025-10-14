@@ -10,7 +10,7 @@ const routes = [
   { path: '/adminvideos', name: 'AdminVideos', component: AdminVideos },
   { path: '/postvideo', name: 'PostVideo', component: PostVideo },
    { path: '/payment', name: 'Payment', component: Payment },
-   { path: '/subscriptions', name: 'Payment', component: Subscription },
+   { path: '/subscriptions', name: 'Subscription', component: Subscription },
 ];
 
 const router = createRouter({
