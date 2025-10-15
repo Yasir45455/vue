@@ -4,6 +4,7 @@ import AdminVideos from '../components/AdminVideos.vue';
 import PostVideo from '../components/PostVideo.vue';
 import Payment from '../views/Payment.vue';
 import Subscription from '../components/Subscription.vue';
+import ShortsFeed from '../components/ShortsFeed.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -11,6 +12,8 @@ const routes = [
   { path: '/postvideo', name: 'PostVideo', component: PostVideo },
    { path: '/payment', name: 'Payment', component: Payment },
    { path: '/subscriptions', name: 'Subscription', component: Subscription },
+   { path: '/shortsfeed', name: 'ShortsFeed', component: ShortsFeed },
+
 ];
 
 const router = createRouter({

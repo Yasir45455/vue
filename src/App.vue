@@ -53,6 +53,9 @@
  <li class="nav-item">
   <RouterLink class="nav-link" to="/subscriptions">Subscriptions</RouterLink>
 </li>
+ <li class="nav-item">
+  <RouterLink class="nav-link" to="/shortsfeed">Shorts</RouterLink>
+</li>
 
           </ul>
         </div>
